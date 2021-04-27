@@ -37,9 +37,7 @@
     margin-bottom: 9px;
   }
   
-  .footer-mailing {
-    flex-basis: calc (50% - var(--section-button-footer));
-  }
+ 
   .footerbox {
     display: flex;
     justify-content: space-between;
@@ -49,9 +47,13 @@
     display: flex;
     
   }
+
   .footer .container {
     display: flex  ;
     justify-content: space-between;
+  }
+  .footer-mailing {
+    flex-basis: calc (50% - var(--section-button-footer));
   }
   .footer-mailing__title{
     font-weight: 700;
@@ -78,23 +80,5 @@
     margin-bottom: 20px;
   }
   
-  .footer-button {
-    width: 200px;
-    margin-top: 0;
-    margin-left: 12px;
-    padding: 10px 28px;
   
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    text-transform: capitalize;
-    display: flex;
-    letter-spacing: 0.06em;
-    align-items: center;
-    text-align: center;
-    padding-left: 29px;
-    padding-right: 28px;
-  
-    color: white;
-  }
   
