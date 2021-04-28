@@ -29,13 +29,14 @@
     -webkit-transition: var(--transition-shadow);
     -o-transition: var(--transition-shadow);
     transition: var(--transition-shadow);
-  }
-  
-  .filter-cards__link:hover,
-  .filter-cards__link:focus {
+    &:hover,
+    &:focus {
     -webkit-box-shadow: var(--filter-cards-shadow);
             box-shadow: var(--filter-cards-shadow);
   }
+  }
+  
+  
   .filter-cards__link:hover .animation-box__thumb,
 .filter-cards__link:focus .animation-box__thumb {
   -webkit-transform: translateY(0);

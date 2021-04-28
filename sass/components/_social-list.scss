@@ -12,11 +12,12 @@
     height: 44px;
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
-  }
-    .social-list__link:hover,
-    .social-list__link:focus {
+    &:hover,
+    &:focus {
       background-color: var(--accent-color);
     }
+  }
+    
     .social-list__icon {
       fill: var(--icons-color);
       transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -33,13 +34,12 @@
       .social-list__link.end {
         background: rgba(255, 255, 255, 0.1);
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+      &:hover,
+      &:focus {
+        background-color: var(--accent-color);
+      }
       }
       .social-list__icon.end {
         fill: var(--primary-white-color);
-      
-      
       }
-      .social-list__link.end:hover,
-      .social-list__link.end:focus {
-        background-color: var(--accent-color);
-      }
+      

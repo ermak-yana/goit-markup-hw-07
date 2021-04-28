@@ -15,13 +15,6 @@
     margin-right: 8px;
   }
   
-  .filter__button:hover,
-  .filter__button:focus {
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
-    -webkit-box-shadow: var(--filter-button-swdow);
-            box-shadow: var(--filter-button-swdow);
-  }
   
   .filter__button {
     background-color: #F5F4FA;
@@ -38,5 +31,13 @@
     -webkit-transition: var(--transition-bgc-color-shadow);
     -o-transition: var(--transition-bgc-color-shadow);
     transition: var(--transition-bgc-color-shadow);
+    &:hover,
+    &:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    -webkit-box-shadow: var(--filter-button-swdow);
+            box-shadow: var(--filter-button-swdow);
+  }
+  
   }
   
